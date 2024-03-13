@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background:url("../img/bg-header.png");
+    background-size: cover;
+
+}
+
+header nav{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+
+}
+
+nav ul a{
+    color: #fff;
+    font-size: 24px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+#hero{
+    text-align: center;
+    padding-top: 200px;   
+}
+
+#hero h2{
+    font-size: 50px;
+    color: yellow;
+}
+
+#hero h1{
+    font-size: 30px;
+    color: #fff;
+}
+
+#hero button{
+    font-size: 35px;
+    padding: 10px 28px;
+    background: yellow;
+    color: #666;
+    border-radius: 10px;
+    border-color: transparent;
+    margin-top: 140px;
+}
+
+#Planes{
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#Planes h2{
+    font-size: 50px;
+    margin-bottom: 60px;
+
+}
+
+#Planes p{
+    font-size: 22px;
+    color: #000;
+
+}
+
+#Planes .fila{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+#Planes .col-plan{
+    position: relative;
+    z-index: 1;
+}
+
+#Planes .col-plan h3{
+    position: absolute;
+    top: 70px;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: yellow;
+    font-size: 26px;
+
+}
+
+#destinos{
+    width: 100%;
+    text-align: center;
+    background: url("../img/bg-destinos.png");
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 60px;
+
+}
+
+#destinos h2{
+    color: yellow;
+    font-size: 50px;
+    margin-bottom: 80px;
+    
+}
+
+#destinos .fila{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: 40px auto;
+
+
+}
+
+#destinos h3{
+    color: #fff;
+    font-size: 32px;
+}
